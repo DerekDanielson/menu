@@ -91,7 +91,7 @@ function displayMenuItems(menuItems){
                 <p class="item-text">${item.desc}</p>
               </div>
             </article>`;
-});
-displayMenu = displayMenu.join('');
-sectionCenter.innerHTML = displayMenu;
+  });
+  displayMenu = displayMenu.join('');
+  sectionCenter.innerHTML = displayMenu;
 };
